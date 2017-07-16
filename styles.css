@@ -1,0 +1,44 @@
+
+
+#canvas {
+    height: 600px;
+    width: 600px;
+    background-color: gray;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.shape {
+    position: absolute;
+    cursor: pointer;
+}
+
+#detail-paine{
+    display: inline-block;
+    width: 300px;
+    margin: 0 30px;
+    vertical-align: top;
+}
+
+.rectangle {
+    background-color: lightgreen;
+}
+
+.square {
+    background-color: red;
+}
+
+.triangle{
+    border-width: 0;
+    border-color: transparent;
+    border-bottom-color: yellow;
+    border-style: solid;
+}
+
+.circle {
+    background-color: purple;
+    border-radius: 50%;
+}

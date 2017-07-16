@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>  
+        <head>
+            <title>Shape Up or Shape Out</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <div id="button-bar">  
+                <h3>Square</h3>
+                <input type="number" id="input-square-side" placeholder="Side Length"><button id="square-btn">Insert</button>
+                <h3>Rectangle</h3>
+                <input type="number" id="input-rect-width" placeholder="Width"><input type="number" id="input-rect-height" placeholder="Height"><button id="rectangle-btn">Insert</button>
+                <h3>Triangle</h3>
+                <input type="number" id="input-tri-height" placeholder="Height"><button id="triangle-btn">Insert</button>
+                <h3>Circle</h3>
+                <input type="number" id="input-circ-radius" placeholder="Radius"><button id="circle-btn">Insert</button>
+        </div>
+        <div id="canvas"></div>
+        <div id="detail-pane">
+            <p>Selected Shape: <span id="shape-name"></span></p>
+            <p>Width: <span id="shape-width"></span></p>
+            <p>Height: <span id="shape-height"></span></p>
+            <p>Radius: <span id="shape-radius"></span></p>
+            <p>Area: <span id="shape-area"></span></p>
+            <p>Perimeter: <span id="shape-perimeter"></span></p>
+        </div>
+            <!--//<script src="shapes.js"></script>-->
+            <script src="scripts.js"></script>
+
+        </body>
+</html>
