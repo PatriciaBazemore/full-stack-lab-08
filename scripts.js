@@ -23,16 +23,16 @@ document.getElementById('square-btn').addEventListener('click', createSquare);
 
 function createCircle () {
     var inputRadius = inputCircleRadius.value;
-    new Circle(inputRadius);  //create a new circle with this radius
+    new Circle(inputRadius * 10);  //create a new circle with this radius
 }
 function createTriangle() {
-    new Triangle(inputTriangleHeight.value);
+    new Triangle(inputTriangleHeight.value * 10);
 }
 function createRectangle() {
-    new Rectangle(inputRectangleWidth.value, inputRectangleHeight.value);
+    new Rectangle(inputRectangleWidth.value * 10, inputRectangleHeight.value * 10);
 }
 function createSquare() {
-    new Square(InputSquareSide.value);
+    new Square(InputSquareSide.value * 10);
 }
 
 //shape class and children

@@ -3,20 +3,23 @@
 #canvas {
     height: 600px;
     width: 600px;
-    background-color: gray;
+    background-color: lightskyblue;
     position: relative;
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
+   
 }
 
 
 .shape {
-    position: absolute;
+    position: static;
     cursor: pointer;
+    float: left;
+    margin: .5em;
 }
 
-#detail-paine{
+#detail-pane{
     display: inline-block;
     width: 300px;
     margin: 0 30px;
@@ -24,7 +27,7 @@
 }
 
 .rectangle {
-    background-color: lightgreen;
+    background-color: green;
 }
 
 .square {
